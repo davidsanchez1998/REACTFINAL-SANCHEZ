@@ -54,7 +54,7 @@ export const ItemCount = ({ stock, id, name, price, initial = 1 }) => {
           className="btn btn-outline-primary mt-2 col-4 "
           onClick={handleAddItem}
         >
-          Comprar
+          Agregar al Carrito
         </button>
       </div>
     </div>
