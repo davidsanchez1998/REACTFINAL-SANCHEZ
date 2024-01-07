@@ -1,0 +1,145 @@
+body {
+  /* background-color: rgb(108, 212, 212); */
+   background-position: center top;
+   margin: 0;
+   height: 100vh;
+   background: linear-gradient(to bottom right, rgb(80, 138, 80), rgb(17, 255, 0))
+
+   
+}
+
+
+.navbar {
+  background-color:  rgb(80, 138, 80);
+}
+
+
+.c_b_bg {
+   background-color: rgb(61, 107, 62);
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+   font-weight: 800;
+   color: black;
+   text-align: center;
+}
+
+.detail_bg {
+   color: black;
+   font-weight: 700;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.detail_bg:hover {
+   background-color: black;
+}
+
+.msje {
+   font-weight: 700;
+   font-family: Tahoma;
+   font-size: 18px;
+   text-align: center;
+}
+
+figcaption {
+   font-weight: 700;
+   color: black;
+}
+
+.img_nav {
+   margin-right: 10px;
+}
+
+.item-width {
+   width: 50px;
+}
+
+.cb_size {
+   max-width: 40%;
+}
+
+.cart-right > img {
+   margin: right;
+}
+
+.cart-container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid  rgb(80, 138, 80);
+   border-radius: 5px;
+   background-color: #f9f9f9;
+ }
+ 
+ .products-list {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .product {
+   display: flex;
+   margin-bottom: 20px;
+   border: 1px solid #ddd;
+   padding: 10px;
+   border-radius: 5px;
+ }
+ 
+ .product-image {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   margin-right: 20px;
+   border-radius: 5px;
+ }
+ 
+ .product-info {
+   flex: 1;
+ }
+
+ .checkout-container {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #f9f9f9;
+ }
+ 
+ .products-container {
+   margin-bottom: 20px;
+ }
+  
+ .products-list-checkout {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .product-checkout {
+   margin-bottom: 10px;
+ }
+ 
+ .total-order {
+   font-weight: bold;
+   font-size: 18px;
+ }
+ 
+ .form {
+   display: flex;
+   flex-direction: column;
+   max-width: 400px;
+   margin: 0 auto;
+ }
+ 
+ input[type="text"],
+ input[type="tel"],
+ input[type="email"] {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+
+ .email-error {
+   color: red;
+   font-weight: 600;
+ }
