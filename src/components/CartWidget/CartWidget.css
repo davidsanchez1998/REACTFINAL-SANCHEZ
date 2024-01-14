@@ -1,0 +1,17 @@
+.numberCart
+{
+  color:rgb(3, 0, 0);
+  text-align: center;
+  
+  font-size: 1em;
+  background-color: rgb(68, 209, 40);
+  border-radius: 100%;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+}
+
+.cartWidget
+{
+  font-size: 1.8rem; 
+}
